@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Image aspect ratios - VA.gov Design System </title>
+  <meta name="description" content="Aspect ratios">
+
+
+
+  <!-- Icons -->
+  <link href="/vets-design-system-documentation/assets/img/favicons/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
+  <link href="/vets-design-system-documentation/assets/img/favicons/apple-touch-icon-72x72.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+  <link href="/vets-design-system-documentation/assets/img/favicons/apple-touch-icon-114x114.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+  <link href="/vets-design-system-documentation/assets/img/favicons/apple-touch-icon-152x152.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+  <link rel="shortcut icon" href="/vets-design-system-documentation/assets/img/favicons/favicon.ico">
+
+  <link rel="stylesheet" href="/vets-design-system-documentation/formation.min.css">
+  <link rel="stylesheet" href="/vets-design-system-documentation/assets/stylesheets/application.css">
+
+  <link rel="canonical" href="https://design.va.gov/vets-design-system-documentation/design/image-aspect-ratios">
+  <link rel="alternate" type="application/rss+xml" title="VA.gov Design System" href="https://design.va.gov/vets-design-system-documentation/feed.xml">
+
+</head>
+
+
+  <body >
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+
+<section class="usa-banner">
+  <div class="usa-accordion">
+    <header class="usa-banner-header">
+      <div class="" style="padding-left:24px;">
+      <img src="/vets-design-system-documentation/img/favicons/favicon-57.png" alt="U.S. flag">
+      <p>An official website of the United States government</p>
+      <button class="usa-accordion-button usa-banner-button"
+        aria-expanded="false" aria-controls="gov-banner">
+        <span class="usa-banner-button-text">Here's how you know</span>
+      </button>
+      </div>
+    </header>
+    <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+      <div class="usa-banner-guidance-gov usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/vets-design-system-documentation/img/icon-dot-gov.svg" alt="Dot gov">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The .gov means it’s official.</strong>
+            <br>
+            Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+          </p>
+        </div>
+      </div>
+      <div class="usa-banner-guidance-ssl usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/vets-design-system-documentation/img/icon-https.svg" alt="Https">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The site is secure.</strong>
+            <br>
+            The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<header class="site-c-header" role="banner">
+
+  <div class="site-l-wrapper">
+    <div class="site-c-header__masthead">
+      <div class="site-c-header__logo" id="extended-logo">
+        <em class="site-c-header__logo-text">
+          <a class="site-c-header__logo-link" title="VA.gov Design System homepage" href="/vets-design-system-documentation/"><strong class="vads-u-display--block small-screen:vads-u-display--inline">VA.gov</strong> <span class="vads-u-display--none small-screen:vads-u-display--inline">|</span> Design System</a>
+        </em>
+      </div>
+      <div class="site-c-header__utility-links">
+        <a href="/vets-design-system-documentation/documentation/whats-new.html" class="usa-button site-button-inverse">What’s new?</a>
+        <a href="/vets-design-system-documentation/documentation/code-and-design.html" class="usa-button vads-u-margin--0">Get code and design files</a>
+        <div id="search-container" class="site-search-container">
+          <i class="fas fa-search search-icon"></i>
+          <input type="search" class="site-search-container__input" id="search-input" placeholder="Search..." aria-label="Search">
+          <ul id="results-container" class="site-search-results" role="listbox"></ul>
+        </div>
+      </div>
+      <button type="button" id="toggle-mobile-search" aria-label="Show search" class="site-toggle-search" aria-controls="mobile-search-container"><i class="fas fa-search"></i></button>
+      <button class="site-c-header__open-mobile-nav-button" id="open-mobile-nav-button" aria-label="Open navigation menu" type="button">Menu</button>
+    </div>
+    <nav class="site-c-header__nav">
+      <ul class="site-c-header__nav-list">
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/documentation">Documentation</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/content-style-guide">Content</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link  current " href="/vets-design-system-documentation/design">Design</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/components">Components</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/utilities">Utilities</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/patterns">Patterns</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/layout">Layout</a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>
+
+<div id="mobile-search-container" class="site-search-container site-seach-container--mobile">
+  <i class="fas fa-search search-icon search-icon--mobile"></i>
+  <input type="search" class="site-search-container__input vads-u-max-width--none" id="mobile-search-input" placeholder="Search..." aria-label="Search">
+  <ul id="mobile-results-container" class="site-search-results site-search-results--mobile" role="listbox"></ul>
+</div>
+
+    <div class="site-c-mobile-nav" id="mobile-nav">
+  <button id="close_mobile_nav_button" class="site-c-mobile-nav__close-button" type="button" aria-label="Close this menu"><i class="fas fa-times"></i></button>
+  <div class="usa-accordion ">
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading vads-u-border-top--0">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button"
+      aria-expanded="false" aria-controls="nav-a1">Documentation</button>
+  </p>
+  <div id="nav-a1" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation">Overview</a>
+      </li>
+      
+       
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/code-and-design">Code and design files</a>
+            </li>
+          
+        
+      
+       
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/content-writers">For content writers</a>
+            </li>
+          
+        
+      
+       
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/contributing-to-formation">Contributing to Formation</a>
+            </li>
+          
+        
+      
+       
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/designers">For designers</a>
+            </li>
+          
+        
+      
+       
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/developers">For developers</a>
+            </li>
+          
+        
+      
+       
+          
+        
+      
+       
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/naming">Naming convention</a>
+            </li>
+          
+        
+      
+       
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/updating-this-site">Updating this site</a>
+            </li>
+          
+        
+      
+       
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/whats-new">What’s new?</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a2">
+      Content
+    </button>
+  </p>
+  <div id="nav-a2" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/word-list">Word list</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/abbreviations-and-acronyms">Abbreviations and acronyms</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/bulleted-lists">Bulleted lists</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/button-labels">Button labels</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/capitalization">Capitalization</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/content-principles">Content principles</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/dates-and-numbers">Dates, times, and phone numbers</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/error-messages">Error messages</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/government-forms">Government forms</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/links">Links</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/naming">Naming</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/numbers">Numbers</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/page-titles-and-section-titles">Page titles and section titles</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/punctuation">Punctuation</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/seo">Writing for SEO</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/sign-up-for-updates">Sign up for updates</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/user-interface-elements">User interface elements</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/we-us-you">We, us, you</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/web-policies-and-directives">Web policies and directives</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="true" aria-controls="nav-a3">
+      Design
+    </button>
+  </p>
+  <div id="nav-a3" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design">Overview</a>
+      </li>
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/color-palette">Color palette</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/icons">Icons</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link  current " href="/vets-design-system-documentation/design/image-aspect-ratios">Image aspect ratios</a>
+            </li>
+          
+        
+      
+      
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/spacing-units">Spacing units</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/typography">Typography</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a4">
+      Components
+    </button>
+  </p>
+  <div id="nav-a4" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components">Overview</a>
+      </li>
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/accordions">Accordions</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/additional-info">Additional info</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/address-block">Address block</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/alertboxes">Alert boxes</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/breadcrumbs">Breadcrumbs</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/buttons">Buttons</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/featured-content">Featured content</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/form-controls">Form controls</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/horizontal-rules">Horizontal rules</a>
+            </li>
+          
+        
+      
+      
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/labels">Labels</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/loading-indicators">Loading indicators</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/modal">Modal</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/pagination">Pagination</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/process-list">Process list (subway map)</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/progress-bars">Progress bars</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/sidenav">Sidenav</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/tables">Tables</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a5">
+      Utilities
+    </button>
+  </p>
+  <div id="nav-a5" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities">Overview</a>
+      </li>
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/background-color">Background color</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/border">Border</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/color">Color</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/display">Display</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/flexbox">Flexbox</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/font-family">Font family</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/font-size">Font size</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/font-style">Font style</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/font-weight">Font weight</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/height-and-width">Height and width</a>
+            </li>
+          
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/line-height">Line height</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/margins">Margins</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/measure">Measure</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/padding">Padding</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/text-align">Text align</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/text-decoration">Text decoration</a>
+            </li>
+          
+        
+      
+      
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/visibility">Visibility</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a6">
+      Patterns
+    </button>
+  </p>
+  <div id="nav-a6" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/color-usage">Color usage</a>
+            </li>
+          
+          
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/content-presentation">Content presentation</a>
+            </li>
+          
+          
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/form-feedback">Form feedback</a>
+            </li>
+          
+          
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/form-templates">Form templates</a>
+            </li>
+          
+          
+      
+        
+          
+          
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/navigation">Navigation</a>
+            </li>
+          
+          
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/pages">Pages</a>
+            </li>
+          
+          
+      
+    </ul>
+  </div>
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a7">
+      Layout
+    </button>
+  </p>
+  <div id="nav-a7" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/layout">Overview</a>
+      </li>
+      
+          
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/layout/flexbox-grid">Flexbox grid</a>
+            </li>
+          
+          
+      
+          
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/layout/float-grid">Float grid</a>
+            </li>
+          
+          
+      
+          
+      
+          
+          
+          
+      
+    </ul>
+  </div>
+
+</div>
+</div>
+
+    <div class="site-c-content">
+      
+      <div class="site-c-content__nav">
+        
+          <ul class="site-c-sidenav-list">
+  
+    
+  
+    
+  
+    
+  
+    
+    <li class="site-c-sidenav-list__item ">
+      <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/design">Overview</a>
+      
+    </li>
+    
+  
+    
+  
+    
+  
+  
+      
+        
+          <li class="site-c-sidenav-list__item ">
+            <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/design/color-palette">Color palette</a>
+            
+          </li>
+        
+      
+  
+      
+        
+          <li class="site-c-sidenav-list__item ">
+            <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/design/icons">Icons</a>
+            
+              <ul class="site-c-sidenav-list__sub">
+                
+                  <li class="site-c-sidenav-list__sub-item">
+                    <a class="site-c-sidenav-list__sub__link" href="#navigation">Navigation</a></li>
+                
+                  <li class="site-c-sidenav-list__sub-item">
+                    <a class="site-c-sidenav-list__sub__link" href="#interaction">Interaction</a></li>
+                
+                  <li class="site-c-sidenav-list__sub-item">
+                    <a class="site-c-sidenav-list__sub__link" href="#feedback">Feedback</a></li>
+                
+                  <li class="site-c-sidenav-list__sub-item">
+                    <a class="site-c-sidenav-list__sub__link" href="#identification">Identification</a></li>
+                
+                  <li class="site-c-sidenav-list__sub-item">
+                    <a class="site-c-sidenav-list__sub__link" href="#hub-icons">Hub icons</a></li>
+                
+                  <li class="site-c-sidenav-list__sub-item">
+                    <a class="site-c-sidenav-list__sub__link" href="#social-media-icons">Social media icons</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      
+  
+      
+        
+          <li class="site-c-sidenav-list__item  current ">
+            <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/design/image-aspect-ratios">Image aspect ratios</a>
+            
+          </li>
+        
+      
+  
+      
+        
+      
+  
+      
+        
+          <li class="site-c-sidenav-list__item ">
+            <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/design/spacing-units">Spacing units</a>
+            
+              <ul class="site-c-sidenav-list__sub">
+                
+                  <li class="site-c-sidenav-list__sub-item">
+                    <a class="site-c-sidenav-list__sub__link" href="#spacing-unit-tokens">Spacing unit tokens</a></li>
+                
+                  <li class="site-c-sidenav-list__sub-item">
+                    <a class="site-c-sidenav-list__sub__link" href="#using-the-spacing-tokens">Using the spacing tokens</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      
+  
+      
+        
+          <li class="site-c-sidenav-list__item ">
+            <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/design/typography">Typography</a>
+            
+              <ul class="site-c-sidenav-list__sub">
+                
+                  <li class="site-c-sidenav-list__sub-item">
+                    <a class="site-c-sidenav-list__sub__link" href="#fonts">Fonts</a></li>
+                
+                  <li class="site-c-sidenav-list__sub-item">
+                    <a class="site-c-sidenav-list__sub__link" href="#headings">Headings</a></li>
+                
+                  <li class="site-c-sidenav-list__sub-item">
+                    <a class="site-c-sidenav-list__sub__link" href="#paragraphs">Paragraphs</a></li>
+                
+                  <li class="site-c-sidenav-list__sub-item">
+                    <a class="site-c-sidenav-list__sub__link" href="#lists">Lists</a></li>
+                
+                  <li class="site-c-sidenav-list__sub-item">
+                    <a class="site-c-sidenav-list__sub__link" href="#links">Links</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      
+  
+</ul>
+          
+        
+      </div>
+      <div class="site-c-content__content">
+        <main id="main-content" class="site-l-content-wrapper--styleguide large-screen:vads-u-margin-top--neg2">
+          
+          <div>
+            <p class="vads-u-border-color--primary vads-u-color--gray vads-u-margin-top--neg3 vads-u-display--inline-block vads-u-border-bottom--3px">Design</p>
+          </div>
+          
+          <h1 id="aspect-ratios">Aspect ratios</h1>
+
+<div class="va-introtext">
+Aspect ratios for images used on VA.gov
+</div>
+
+<div class="site-c-showcase">
+  <div class="vads-l-row vads-u-flex-direction--column">
+    <div class="vads-l-col vads-l-row site-c-showcase__col vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row vads-u-border-top--0">
+      <div class="vads-l-col--12 medium-screen:vads-l-col--3">
+        <div class="site-aspect-ratio site-aspect-ratio--11"></div>
+      </div>
+      <div class="vads-l-col--12 medium-screen:vads-l-col--1 medium-screen:vads-u-padding-left--2">
+        <span class="site-c-utility-value">1:1</span>
+      </div>
+      <div class="vads-l-col--12 medium-screen:vads-l-col--8 medium-screen:vads-u-padding-left--3">
+        <h4 class="vads-u-margin-top--0">Used for:</h4>
+        <ul>
+          <li>Headshots or avatars on bio pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="vads-l-col vads-l-row site-c-showcase__col vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+      <div class="vads-l-col--12 medium-screen:vads-l-col--3">
+        <div class="site-aspect-ratio site-aspect-ratio--21"></div>
+      </div>
+      <div class="vads-l-col--12 medium-screen:vads-l-col--1 medium-screen:vads-u-padding-left--2">
+        <span class="site-c-utility-value">2:1</span>
+      </div>
+      <div class="vads-l-col--12 medium-screen:vads-l-col--8 medium-screen:vads-u-padding-left--3">
+
+      </div>
+    </div>
+
+    <div class="vads-l-col vads-l-row site-c-showcase__col vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+      <div class="vads-l-col--12 medium-screen:vads-l-col--3">
+        <div class="site-aspect-ratio site-aspect-ratio--11"></div>
+      </div>
+      <div class="vads-l-col--12 medium-screen:vads-l-col--1 medium-screen:vads-u-padding-left--2">
+        <span class="site-c-utility-value">3:2</span>
+      </div>
+      <div class="vads-l-col--12 medium-screen:vads-l-col--8 medium-screen:vads-u-padding-left--3">
+        <h4 class="vads-u-margin-top--0">Used for:</h4>
+        <ul>
+          <li>Teaser images such as these news stories</li>
+          <li>"Promo" blocks on Benefits Hub landing pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="vads-l-col vads-l-row site-c-showcase__col vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+      <div class="vads-l-col--12 medium-screen:vads-l-col--3">
+        <div class="site-aspect-ratio site-aspect-ratio--72"></div>
+      </div>
+      <div class="vads-l-col--12 medium-screen:vads-l-col--1 medium-screen:vads-u-padding-left--2">
+        <span class="site-c-utility-value">7:2</span>
+      </div>
+      <div class="vads-l-col--12 medium-screen:vads-l-col--8 medium-screen:vads-u-padding-left--3">
+        <h4 class="vads-u-margin-top--0">Used for:</h4>
+        <ul>
+          <li>Banners</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </main>
+      </div>
+      
+
+    </div>
+
+    <footer class="footer vads-u-padding-y--5" role="contentinfo">
+  <div class="footer-inner">
+    <div class="row vads-u-margin-top--0" id="va-footer-supplementallinks">
+      <div>
+        <ul class="va-footer-linkgroup--inline" id="footer-supplemental">
+          <li><a href="/vets-design-system-documentation/documentation/whats-new.html">What’s New?</a></li>
+          <li><a href="http://va.gov/playbook/">Vets.gov Playbook</a></li>
+          <li><a target="_blank" href="https://www.section508.va.gov/">Accessibility</a></li>
+          <li><a href="http://va.gov/privacy/">Privacy</a></li>
+
+        </ul>
+      </div>
+    <div>
+      <div class="footer-seal">
+        <abbr title="Department of Veterans Affairs">VA</abbr> | U.S. Department of Veterans Affairs
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+</footer>
+
+
+
+
+    <script type="text/javascript" src="/vets-design-system-documentation/vendor/javascripts/bundle.js" charset="utf-8"></script>
+    <script src="/vets-design-system-documentation/assets/javascripts/site.js"></script>
+
+    <script src="/vets-design-system-documentation/vendor/javascripts/uswds.min.js"></script>
+  </body>
+
+</html>
